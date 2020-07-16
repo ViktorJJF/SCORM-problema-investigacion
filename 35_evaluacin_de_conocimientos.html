@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>3.5. Evaluación de conocimientos | Universidad Virtual César Vallejo </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="Mba. Oscar Jimenez" />
+<meta name="generator" content="eXeLearning 2.5 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+<body class="exe-web-site" id="exe-node-14"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Universidad Virtual César Vallejo</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">✅ El problema de investigación</a></li>
+   <li><a href="_contenidos.html" class="no-ch">✅ Contenidos</a></li>
+   <li><a href="1_cmo_encontrar_el_problema.html" class="no-ch">1. ¿Cómo encontrar el problema?</a></li>
+   <li><a href="2_recurso_didctico.html" class="no-ch">2. Recurso didáctico</a></li>
+   <li class="current-page-parent"><a href="3_planteando_el_problema.html" class="current-page-parent daddy">3. Planteando el problema</a>
+   <ul>
+      <li><a href="31_ejemplos.html" class="no-ch">3.1. Ejemplos</a></li>
+      <li><a href="32_el_mtodo.html" class="no-ch">3.2. El método</a></li>
+      <li><a href="33_descripcin_del_mtodo.html" class="no-ch">3.3. Descripción del método</a></li>
+      <li><a href="34_ejemplos_2.html" class="no-ch">3.4. Ejemplos 2</a></li>
+      <li id="active"><a href="35_evaluacin_de_conocimientos.html" class="active no-ch">3.5. Evaluación de conocimientos</a></li>
+      <li><a href="35_evaluacin_modelo_2.html" class="no-ch">3.5. Evaluación modelo 2</a></li>
+   </ul>
+   </li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="34_ejemplos_2.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="35_evaluacin_modelo_2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">3.5. Evaluación de conocimientos</h1></header>
+<article class="iDevice_wrapper QuizTestIdevice em_iDevice" id="id31">
+<script type="text/javascript">/*<![CDATA[*/
+var numQuestions = 4;
+var rawScore = 0;
+var actualScore = 0;
+var question0;
+var question1;
+var question2;
+var question3;
+var key0 = 1;
+var key1 = 0;
+var key2 = 2;
+var key3 = 0;
+function getAnswer()
+        {
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm31").key0b31[i].checked)
+               {
+                  question0 = document.getElementById("quizForm31").key0b31[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm31").key1b31[i].checked)
+               {
+                  question1 = document.getElementById("quizForm31").key1b31[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm31").key2b31[i].checked)
+               {
+                  question2 = document.getElementById("quizForm31").key2b31[i].value;
+                  break;
+               }
+            }
+            
+            for (var i=0; i < 4; i++)
+            {
+               if (document.getElementById("quizForm31").key3b31[i].checked)
+               {
+                  question3 = document.getElementById("quizForm31").key3b31[i].value;
+                  break;
+               }
+            }
+            }
+        function calcRawScore(){
+
+            if (question0 == key0)
+            {
+               rawScore++;
+            }
+            if (question1 == key1)
+            {
+               rawScore++;
+            }
+            if (question2 == key2)
+            {
+               rawScore++;
+            }
+            if (question3 == key3)
+            {
+               rawScore++;
+            }
+        
+        }
+        
+        function calcScore2()
+        {
+            getAnswer();
+     
+            calcRawScore();
+            actualScore =  Math.round(rawScore / numQuestions * 100);
+            var id = "31";
+            document.getElementById("quizForm"+id).submitB.disabled = true;
+            var s = document.getElementById("quizFormScore"+id);
+                        var msg_str ="Su puntuación es %d%%";            msg_str = msg_str.replace("%d",actualScore).replace("%%","%");            if (s) { s.innerHTML = "<div class='feedback'><p>"+msg_str+"</p></div>"; } else { alert(msg_str); }
+           
+        }
+    /*]]>*/</script>
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Test sobre el método para plantear un problema de investigación </h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<form name="quizForm31" id="quizForm31" action="#" class="quiz-test-form">
+<input type="hidden" name="passrate" id="passrate-31" value="70" />
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion0b31" class="block iDevice_content">
+<p><strong>¿Qué es un síntoma?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b311" class="sr-av"><a href="#answer-key0b311">Opción 1</a></label><input type="radio" name="key0b31" id="key0b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b311">
+<div id="taoptionAnswer0q0b31" class="block iDevice_content">
+<p>Actividades que se realizan y ejecutan para el objeto de investigación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b312" class="sr-av"><a href="#answer-key0b312">Opción 2</a></label><input type="radio" name="key0b31" id="key0b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b312">
+<div id="taoptionAnswer1q0b31" class="block iDevice_content">
+<p>Hechos y situaciones que se observan al analizar el objeto de investigación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b313" class="sr-av"><a href="#answer-key0b313">Opción 3</a></label><input type="radio" name="key0b31" id="key0b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b313">
+<div id="taoptionAnswer2q0b31" class="block iDevice_content">
+<p>Hechos poco o casi nada observados para definir el objeto de investigación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key0b314" class="sr-av"><a href="#answer-key0b314">Opción 4</a></label><input type="radio" name="key0b31" id="key0b314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key0b314">
+<div id="taoptionAnswer3q0b31" class="block iDevice_content">
+<p>N/A</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion1b31" class="block iDevice_content">
+<p><strong>¿Qué son las causas?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b311" class="sr-av"><a href="#answer-key1b311">Opción 1</a></label><input type="radio" name="key1b31" id="key1b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b311">
+<div id="taoptionAnswer0q1b31" class="block iDevice_content">
+<p>Hechos o situaciones que se producen por la <i>existencia</i> de los síntomas identificados</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b312" class="sr-av"><a href="#answer-key1b312">Opción 2</a></label><input type="radio" name="key1b31" id="key1b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b312">
+<div id="taoptionAnswer1q1b31" class="block iDevice_content">
+<p>Actividades que se derivan al analizar el objeto de investigación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b313" class="sr-av"><a href="#answer-key1b313">Opción 3</a></label><input type="radio" name="key1b31" id="key1b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b313">
+<div id="taoptionAnswer2q1b31" class="block iDevice_content">
+<p>Hechos producidos por las mismas causas del objetivo de investigación</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key1b314" class="sr-av"><a href="#answer-key1b314">Opción 4</a></label><input type="radio" name="key1b31" id="key1b314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key1b314">
+<div id="taoptionAnswer3q1b31" class="block iDevice_content">
+<p>N/A</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion2b31" class="block iDevice_content">
+<p><strong>¿Qué es el pronóstico?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b311" class="sr-av"><a href="#answer-key2b311">Opción 1</a></label><input type="radio" name="key2b31" id="key2b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b311">
+<div id="taoptionAnswer0q2b31" class="block iDevice_content">
+<p>Siempre se dan en el objeto de investigación y es controlado por el investigador</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b312" class="sr-av"><a href="#answer-key2b312">Opción 2</a></label><input type="radio" name="key2b31" id="key2b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b312">
+<div id="taoptionAnswer1q2b31" class="block iDevice_content">
+<p>Es un análisis situacional del objeto de investigación a criterio del investigador</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b313" class="sr-av"><a href="#answer-key2b313">Opción 3</a></label><input type="radio" name="key2b31" id="key2b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b313">
+<div id="taoptionAnswer2q2b31" class="block iDevice_content">
+<p>Situaciones que pueden darse, si se siguen presentando los síntomas y causas</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key2b314" class="sr-av"><a href="#answer-key2b314">Opción 4</a></label><input type="radio" name="key2b31" id="key2b314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key2b314">
+<div id="taoptionAnswer3q2b31" class="block iDevice_content">
+<p>N/A</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section class="question">
+<h1 class="js-sr-av">Pregunta</h1>
+<div id="taquestion3b31" class="block iDevice_content">
+<p><strong>¿Qué es el control al pronóstico?</strong></p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Respuestas</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b311" class="sr-av"><a href="#answer-key3b311">Opción 1</a></label><input type="radio" name="key3b31" id="key3b311" value="0" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b311">
+<div id="taoptionAnswer0q3b31" class="block iDevice_content">
+<p>Acciones por las cuales el investigador puede anticiparse y controlar las situaciones identificadas en los síntomas, causas y pronóstico</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b312" class="sr-av"><a href="#answer-key3b312">Opción 2</a></label><input type="radio" name="key3b31" id="key3b312" value="1" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b312">
+<div id="taoptionAnswer1q3b31" class="block iDevice_content">
+<p>Acciones que comprometen al investigador a continuar observando la situación de los síntomas, las causas y su pronóstico</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b313" class="sr-av"><a href="#answer-key3b313">Opción 3</a></label><input type="radio" name="key3b31" id="key3b313" value="2" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b313">
+<div id="taoptionAnswer2q3b31" class="block iDevice_content">
+<p>Actividades que siempre realiza el investigador y que no puede controlar ni en los síntomas o causas o su pronóstico</p>
+</div>
+</div>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="key3b314" class="sr-av"><a href="#answer-key3b314">Opción 4</a></label><input type="radio" name="key3b31" id="key3b314" value="3" />
+</p>
+<div class="iDevice_answer-content" id="answer-key3b314">
+<div id="taoptionAnswer3q3b31" class="block iDevice_content">
+<p>N/A</p>
+</div>
+</div>
+</section>
+</section>
+</section>
+<div class="block iDevice_buttons">
+<p><input type="submit" name="submitB" value="ENVIAR RESPUESTAS" /> <span class="js-hidden js-warning">Habilitar JavaScript</span></p>
+</div>
+<div id="quizFormScore31"></div>
+</form>
+</div>
+</div>
+</div>
+</article>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="34_ejemplos_2.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="35_evaluacin_modelo_2.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<script type="text/javascript" src="_style_js.js"></script></body></html>
